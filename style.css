@@ -168,6 +168,12 @@ body {
   @media (max-width: 425px) {
     .header .header-items .header-item__img {
       height: 30vh; } }
+  @media (max-height: 830px) {
+    .header .header-items .header-item__img {
+      height: 30vh; }
+      .header .header-items .header-item__img img {
+        width: 100vw;
+        height: auto; } }
 
 .about__inner {
   display: flex;

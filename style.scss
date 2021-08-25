@@ -275,6 +275,19 @@ body {
             }
         }
     }
+    @media (max-height: 830px) {
+        .header-items {
+            .header-item {
+                &__img {
+                    height: 30vh;
+                    img {
+                        width: 100vw;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .about {
